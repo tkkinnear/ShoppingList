@@ -1,0 +1,47 @@
+chicken nuggets:13.49:FROZEN
+cheese tray:13.49:COLDPRODUCTS
+spaghetti:12.59:PANTRY
+guacamole:12.49:COLDPRODUCTS
+sour cream:7.50:DAIRY
+premade chicken:17.00:DELI
+garlic bread:5.99:BAKERY
+raspberries:8.99:COLDPRODUCE
+veggie tray:12.99:COLDPRODUCE
+cheese:12.49:DAIRY
+greek yogurt:8.99:DAIRY
+tomatoes:5.69:PRODUCE
+goldfish:11.99:PANTRY
+lasagne:0.00:PANTRY
+naan:5.99:BAKERY
+granola bars:11.99:SNACKS
+ice cream:4.99:FROZEN
+ranch dressing:6.59:PANTRY
+chicken thighs boneless:20.00:DELI
+beans:8.99:PANTRY
+tortilla chips:8.00:SNACKS
+hot dogs:11.99:PACKAGEDMEATS
+potato salad:6.99:COLDPRODUCTS
+strawberries:8.99:COLDPRODUCE
+mozzarella:13.49:DAIRY
+cheerios:4.99:PANTRY
+lasagna:0.00:PANTRY
+mozarella:13.00:DAIRY
+butter:3.59:DAIRY
+peppers:6.99:PRODUCE
+belmont beef burgers:8.99:FROZEN
+mozza stix:13.49:FROZEN
+tomato sauce:4.99:PANTRY
+pepper chicken:17.00:DELI
+raisin bran:4.99:PANTRY
+peanut butter:4.99:PANTRY
+nothing:0.00:PANTRY
+milk:4.69:DAIRY
+cream:1.99:DAIRY
+pre made:18.00:DELI
+lettuce:4.99:COLDPRODUCE
+mushrooms:6.99:COLDPRODUCE
+soy sauce :5.50:PANTRY
+drumstick ice cream:7.50:FROZEN
+chicken breasts:25.00:DELI
+bbq sauce:9.99:PANTRY
+frozen veggies:8.50:FROZEN
