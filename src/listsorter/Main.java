@@ -10,7 +10,7 @@
  */
 package listsorter;
 
-import UserInterface.ListManager;
+import UserInterface.TextMenu;
 import shoppinglist.*;
 
 
@@ -22,7 +22,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(System.getProperty("java.home"));
-        ListManager ui = new ListManager();
+        TextMenu ui = new TextMenu();
         
         ui.start();
         

@@ -21,20 +21,22 @@ public enum Department {
     HOUSEWARES(3),
     OUTDOOR(4),
     BAKERY(5),
-    DELI(6),
-    PRODUCE(7),
-    COLDPRODUCE(8),
-    COLDPRODUCTS(9),
+    BUTCHER(6),
+    DELI(7),
+    PRODUCE(8),
+    COLDPRODUCE(9),
     DAIRY(10),
-    PACKAGEDMEATS(11),
+    LUNCHMEAT(11),
     FROZEN(12),
     PANTRY(13),
     SNACKS(14),
-    HYGEINE(15),
-    PHARMACY(16),
-    CHILDCARE(17),
-    CLOTHING(18),
-    BOOKS(19);
+    BAKING(15),
+    CONDOMENTS(16),
+    HYGEINE(17),
+    PHARMACY(18),
+    CHILDCARE(19),
+    CLOTHING(20),
+    BOOKS(21);
     
     private final int rating;
     Department(int rating){

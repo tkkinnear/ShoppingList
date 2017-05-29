@@ -10,9 +10,11 @@
  */
 package UserInterface;
 
+import java.util.EnumSet;
+import java.util.Iterator;
 import java.util.Scanner;
 import productmanager.Department;
-import productmanager.ProductManager;
+import productmanager.StoreManager;
 
 /**
  *
@@ -20,7 +22,7 @@ import productmanager.ProductManager;
  */
 public class GetCommand {
 
-    private Scanner reader;
+    private final Scanner reader;
 
     public GetCommand() {
         this.reader = new Scanner(System.in);
@@ -41,6 +43,16 @@ public class GetCommand {
 
             } catch (Exception e) {
                 System.out.println("not a valid Department.");
+                Iterator iterator = EnumSet.allOf(Department.class).iterator();
+                int i = 0;
+                while (iterator.hasNext()) {
+                    i++;
+                    System.out.print(iterator.next() + " | ");
+                    if (i / 3 == 1) {
+                        System.out.println("");
+                        i = 0;
+                    }
+                }
             }
         }
     }
@@ -56,9 +68,9 @@ public class GetCommand {
             }
         }
     }
-    
-    public String name(ProductManager store){
-            System.out.println("Enter a name for this product: ");
+
+    public String name(StoreManager store) {
+        System.out.println("Enter a name for this product: ");
         String n = next();
         while (true) {
             if (store.getProduct(n) != null) {

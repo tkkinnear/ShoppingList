@@ -14,9 +14,9 @@ public class Product {
     }
 
     public Product(String[] item) {
-        this.name = item[0].toLowerCase();
-        this.price = Double.parseDouble(item[1]);
-        this.department = Department.valueOf(item[2].toUpperCase());
+        this.name = item[1].toLowerCase();
+        this.price = Double.parseDouble(item[2]);
+        this.department = Department.valueOf(item[0].toUpperCase());
     }
 
     public String getName() {
@@ -49,6 +49,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return (this.name + ":" + this.priceTag() + ":" + this.department);
+        return (this.department + ":" + this.name + ":" + this.priceTag());
     }
 }

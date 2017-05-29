@@ -1,72 +1,68 @@
-english muffins:6.49:BAKERY
-garlic bread:5.99:BAKERY
-naan:5.99:BAKERY
-tortillas:8.99:BAKERY
-chicken breasts:25.00:DELI
-chicken thighs boneless:20.00:DELI
-ground beef:18.00:DELI
-honey garlic sausage:12.00:DELI
-pepper chicken:17.00:DELI
-pre made:18.00:DELI
-premade chicken:17.00:DELI
-bananas:6.49:PRODUCE
-peppers:6.99:PRODUCE
-small ones oranges:12.49:PRODUCE
-tomatoes:5.69:PRODUCE
-lettuce:4.99:COLDPRODUCE
-mushrooms:6.99:COLDPRODUCE
-raspberries:8.99:COLDPRODUCE
-strawberries:6.99:COLDPRODUCE
-veggie tray:14.99:COLDPRODUCE
-cheese tray:13.49:COLDPRODUCTS
-guacamole:12.49:COLDPRODUCTS
-potato salad:6.99:COLDPRODUCTS
-rainbow tortellini:14.99:COLDPRODUCTS
-30 eggs:6.99:DAIRY
-butter:3.59:DAIRY
-cheddar cheese:14.79:DAIRY
-cheese:14.79:DAIRY
-cheese slices:11.49:DAIRY
-cream:1.99:DAIRY
-greek yogurt:8.99:DAIRY
-milk:4.69:DAIRY
-mozarella:13.00:DAIRY
-mozzarella:13.49:DAIRY
-sour cream:7.50:DAIRY
-yogurt tubes:8.99:DAIRY
-farmers sasuage:8.99:PACKAGEDMEATS
-farmers sausage:9.99:PACKAGEDMEATS
-hot dogs:11.99:PACKAGEDMEATS
-turkey slices:7.49:PACKAGEDMEATS
-belmont beef burgers:8.99:FROZEN
-chicken nuggets:13.49:FROZEN
-drumstick ice cream:7.50:FROZEN
-frozen veggies:9.99:FROZEN
-ice cream:4.99:FROZEN
-mozza stix:13.49:FROZEN
-bbq sauce:9.99:PANTRY
-beans:8.99:PANTRY
-brown sugar:6.99:PANTRY
-cereal in a cup:1000.00:PANTRY
-cheerios:6.99:PANTRY
-chocolate chips:7.99:PANTRY
-coffee:12.99:PANTRY
-goldfish:11.99:PANTRY
-lasagne:0.00:PANTRY
-mayonaise:5.99:PANTRY
-nothing:0.00:PANTRY
-peanut butter:4.99:PANTRY
-raisin bran:4.99:PANTRY
-ranch dressing:6.59:PANTRY
-rice:12.49:PANTRY
-soy sauce :5.50:PANTRY
-spaghetti:12.59:PANTRY
-tomato sauce:4.99:PANTRY
-white sugar:10.99:PANTRY
-chicago mix:6.99:SNACKS
-dips granola bars:11.49:SNACKS
-fibre 1 bars:9.79:SNACKS
-fruit source bars:19.89:SNACKS
-granola bars:11.99:SNACKS
-tortilla chips:8.00:SNACKS
-dress pants:26.99:CLOTHING
+BAKERY:english muffins:6.49
+BAKERY:garlic bread:5.99
+BAKERY:naan:6.49
+BAKERY:tortillas:8.99
+BUTCHER:chicken breasts:25.00
+BUTCHER:chicken thighs boneless:20.00
+BUTCHER:ground beef:18.00
+BUTCHER:honey garlic sausage:12.00
+BUTCHER:pepper chicken:17.00
+BUTCHER:premade chicken:17.00
+DELI:cheese tray:13.49
+DELI:guacamole:12.49
+DELI:potato salad:6.99
+DELI:rainbow tortellini:15.99
+PRODUCE:bananas:1.89
+PRODUCE:peppers:5.99
+PRODUCE:small ones oranges:6.99
+PRODUCE:tomatoes:5.69
+COLDPRODUCE:lettuce:4.99
+COLDPRODUCE:mushrooms:6.99
+COLDPRODUCE:raspberries:8.99
+COLDPRODUCE:spinach:3.99
+COLDPRODUCE:strawberries:6.99
+COLDPRODUCE:veggie tray:14.99
+DAIRY:30 eggs:7.39
+DAIRY:butter:3.99
+DAIRY:cheddar cheese:14.49
+DAIRY:cheese:14.49
+DAIRY:cheese slices:9.69
+DAIRY:cream:1.99
+DAIRY:greek yogurt:8.99
+DAIRY:milk:4.89
+DAIRY:mozzarella:13.49
+DAIRY:sour cream:3.60
+DAIRY:yogurt tubes:6.99
+LUNCHMEAT:farmers sausage:14.99
+LUNCHMEAT:hot dogs:11.99
+LUNCHMEAT:turkey slices:9.99
+FROZEN:belmont beef burgers:8.99
+FROZEN:chicken nuggets:13.49
+FROZEN:drumstick ice cream:7.50
+FROZEN:frozen veggies:9.99
+FROZEN:ice cream:4.99
+FROZEN:mozza stix:13.49
+PANTRY:bbq sauce:9.99
+PANTRY:beans:8.99
+PANTRY:cheerios:6.99
+PANTRY:chili beans:5.49
+PANTRY:coffee:11.79
+PANTRY:rice:14.99
+PANTRY:spaghetti:12.59
+PANTRY:toilet paper:16.99
+PANTRY:tomato sauce:4.99
+SNACKS:chicago mix:6.99
+SNACKS:dips granola bars:11.49
+SNACKS:fibre 1 bars:9.79
+SNACKS:fruit source bars:19.89
+SNACKS:goldfish:11.99
+SNACKS:granola bars:11.99
+SNACKS:tortilla chips:8.00
+BAKING:brown sugar:3.89
+BAKING:chocolate chips:14.99
+BAKING:white sugar:12.49
+CONDOMENTS:mayonaise:5.99
+CONDOMENTS:peanut butter:4.99
+CONDOMENTS:ranch dressing:6.59
+CONDOMENTS:soy sauce:5.50
+CLOTHING:dress pants:26.99

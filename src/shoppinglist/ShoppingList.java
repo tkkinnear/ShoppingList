@@ -31,7 +31,7 @@ public class ShoppingList {
         return this.shoppingList;
     }
 
-    public List<String> validateList(ProductManager products) {
+    public List<String> validateList(StoreManager products) {
         Map<String, Product> productList = products.getProducts();
         Iterator<String> iterator = shoppingList.iterator();
         List<String> confirmed = new ArrayList();
@@ -60,7 +60,7 @@ public class ShoppingList {
         shoppingList.add("Estimated cost: $" + s);
     }
 
-    public String getCost(ProductManager store) {
+    public String getCost(StoreManager store) {
         // subtotals the current shopping list.
         Map<String, Product> productList = store.getProducts();
         double total = 0;
@@ -72,24 +72,24 @@ public class ShoppingList {
         return String.format("%.2f", total);
     }
 
-    public void save(ProductManager store) {
+    public void save(StoreManager store) {
         FileManager outputFile = new FileManager("Shopping List", "src\\testOutput.txt");
         
         outputFile.save(printList(store));
 
     }
 
-    public void sort(ProductManager store) {
+    public void sort(StoreManager store) {
         validateList(store);
         Collections.sort(shoppingList, new ProductComparator(store.getProducts()));
     }
 
-    public void save(String path, ProductManager store) {
+    public void save(String path, StoreManager store) {
         FileManager outputFile = new FileManager("ShoppingList", path);
         outputFile.save(printList(store));
     }
     
-    private int priceSpacing(ProductManager store){
+    private int priceSpacing(StoreManager store){
         int spacing = 0;
         for (String each : shoppingList){
             int compare = store.getProduct(each).priceTag().length();
@@ -100,7 +100,7 @@ public class ShoppingList {
         return spacing;
     }
 
-    private List<String> printList(ProductManager store) {
+    private List<String> printList(StoreManager store) {
         List<String> printList = new ArrayList<String>();
         if (shoppingList.isEmpty()) {
             System.out.println("Nothing found in list");
@@ -123,7 +123,7 @@ public class ShoppingList {
         return printList;
     }
     
-    public void print(ProductManager store){
+    public void print(StoreManager store){
         for (String each : printList(store)){
             System.out.println(each);
         }
