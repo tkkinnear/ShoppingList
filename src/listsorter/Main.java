@@ -10,7 +10,7 @@
  */
 package listsorter;
 
-import UserInterface.TextMenu;
+import TextInterface.TextMenu;
 import shoppinglist.*;
 
 

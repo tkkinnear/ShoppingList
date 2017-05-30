@@ -1,6 +1,8 @@
 package shoppinglist;
 
 import filemanager.FileManager;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -11,8 +13,8 @@ import productmanager.*;
 public class ShoppingList {
 
     private List<String> shoppingList;
-    private String path;
-    private FileManager source;
+    private final String path;
+    private final FileManager source;
 
     public ShoppingList() {
         this.path = "src\\rawList.txt";
@@ -73,7 +75,9 @@ public class ShoppingList {
     }
 
     public void save(StoreManager store) {
-        FileManager outputFile = new FileManager("Shopping List", "src\\testOutput.txt");
+        ZoneId pacific = ZoneId.of("US/Pacific");
+        String[] time = LocalDateTime.now().toString().split("T");
+        FileManager outputFile = new FileManager("Shopping List", "src\\" + time[0] + " " + store.getName() + ".txt");
         
         outputFile.save(printList(store));
 
@@ -101,7 +105,7 @@ public class ShoppingList {
     }
 
     private List<String> printList(StoreManager store) {
-        List<String> printList = new ArrayList<String>();
+        List<String> printList = new ArrayList<>();
         if (shoppingList.isEmpty()) {
             System.out.println("Nothing found in list");
             return null;
