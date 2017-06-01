@@ -104,7 +104,7 @@ public class ShoppingList {
         return spacing;
     }
 
-    private List<String> printList(StoreManager store) {
+    public List<String> printList(StoreManager store) {
         List<String> printList = new ArrayList<>();
         if (shoppingList.isEmpty()) {
             System.out.println("Nothing found in list");

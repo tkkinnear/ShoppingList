@@ -12,7 +12,7 @@ package listsorter;
 
 import TextInterface.TextMenu;
 import shoppinglist.*;
-
+import graphicinterface.*;
 
 /**
  *
@@ -21,10 +21,9 @@ import shoppinglist.*;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(System.getProperty("java.home"));
-        TextMenu ui = new TextMenu();
+        GraphicInterface ui = new GraphicInterface();
         
-        ui.start();
+        ui.run();
         
     }
 
